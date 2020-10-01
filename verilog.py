@@ -100,18 +100,6 @@ class App(QWidget):
       
         buttonac.move(100,300)
         buttonac.resize(60,60)
-        
-
-
-
-
-
-
-
-
-
-
-
 
         self.textbox = QLineEdit(self)
         self.textbox.setStyleSheet("background-color: white");
@@ -123,11 +111,6 @@ class App(QWidget):
         self.timeDisplay.display('0')
         self.timeDisplay.resize(260,60)
         
-     
-       
-        
- 
-
         self.show()
         button1.clicked.connect(self.on_click1)
         button2.clicked.connect(self.on_click2)
@@ -145,8 +128,6 @@ class App(QWidget):
         buttonc.clicked.connect(self.on_clickc)
         buttone.clicked.connect(self.on_clicke)
         buttonac.clicked.connect(self.on_clickac)
-
-
 
 
     @pyqtSlot()
@@ -293,21 +274,7 @@ class App(QWidget):
         self.timeDisplay.display('0')
    
 
-   
-         
-        
-         
-         
-         
-         
-         
-         
-         
-         
-         
-        
-
-       
+ 
  
 if __name__ == '__main__':
     app = QApplication(sys.argv)
